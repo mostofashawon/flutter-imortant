@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:getx_project/clickchange.dart';
+import 'package:getx_project/riverpod/clickchange.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

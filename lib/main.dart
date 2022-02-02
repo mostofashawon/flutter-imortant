@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:getx_project/carousel_slider/carousel_slider.dart';
 import 'package:getx_project/hrm_practice/hr.dart';
+import 'package:getx_project/view/fancynav.dart';
 import 'package:getx_project/view/staggredview.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         home: Scaffold(
          // body: Profile()
-          body: CarouselView(),
+          body: FancyNavView(),
           ),
     );
    // );
